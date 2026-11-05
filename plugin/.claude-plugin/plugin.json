@@ -1,7 +1,7 @@
 {
   "name": "pulse",
   "displayName": "Pulse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Streams the rhythm of every Claude Code session to your Pulse player, where it plays back as graphics and sound.",
   "author": {
     "name": "Kevin Ivarsson"

@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.1
+
+- Pulse now lives at github.com/pulse-for-claude-code; old links redirect.
+- The founder's name is spelled Kevin Ivarsson in the player, the README and the Pulse Disc menu.
+- The plugin has its own icon and README for the Claude plugin directory.
+
 ## v1.0.0
 
 The first full release of Pulse for Claude Code.
