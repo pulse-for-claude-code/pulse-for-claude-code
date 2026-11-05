@@ -15,7 +15,8 @@ Every Pulse player opens with a starter pack, so there's something to hear befor
 - **Raw recordings**: the whole session in real time, with long pauses shortened while you listen.
 - **Share a track**: the share button makes a link with the whole track inside it. Your friend taps it and presses play, no account needed. Only the rhythm travels: no project names, prompts or code.
 - **Live mode**: watch and hear Claude work in real time, about a second behind, on any device.
-- **The puck**: pop the player out into a small round player that floats on top of your other windows, so you can keep listening while you work. It shows the playing track as a ring of notes, turning in time. Works in Chrome and Edge on a computer.
+- **The puck**: pop the player out into a small round player that floats on top of your other windows, so you can keep listening while you work. It shows the playing track as a ring of notes, turning in time. Works in Chrome, Edge and Firefox on a computer.
+- **Pulse Disc (Windows, preview)**: the puck with no window at all, a disc floating on your desktop. Get it from the [latest release](../../releases/latest): unzip and run `Pulse Disc.exe`. It isn't signed yet, so Windows may ask once.
 - **Shuffle, repeat, favourites and playlists**, lock-screen controls on phones, and it installs like an app.
 
 ## Record your own, in one click
@@ -94,7 +95,12 @@ The Auto rules: a quiet spell of 15 minutes or more ends a stretch of work, and 
 
 ## Build on it
 
-Be my guest. Fork it, change it, make it yours. Ideas and improvements are welcome as issues or pull requests.
+Pulse is a community project. Fork it, change it, make it yours, and send the good parts back.
+
+- [CONTRIBUTING.md](CONTRIBUTING.md): how the code is laid out and how to run it
+- [ROADMAP.md](ROADMAP.md): what the project wants next
+- [Discussions](../../discussions): questions, ideas and your best tracks
+- [MAINTAINERS.md](MAINTAINERS.md): who looks after what, and how to join
 
 Run it locally with `npx vercel dev` and a `DATABASE_URL` pointing at any Postgres. `node tools/test-tracks.mjs` checks the track cutter. New starter tracks are welcome: see [starter/README.md](starter/README.md).
 

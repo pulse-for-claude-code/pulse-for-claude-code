@@ -1,0 +1,14 @@
+name: Idea
+description: Something Pulse could do
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What would it do for you?
+    validations: { required: true }
+  - type: textarea
+    id: why
+    attributes:
+      label: Anything else
