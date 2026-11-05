@@ -1,12 +1,12 @@
 # Maintainers
 
-Pulse was started by Kevin Ivarson in October 2026 and handed to the community the same autumn.
+Pulse was started by Kevin Ivarson ([Durellem Ltd](LINKEDIN_URL)) in October 2026 and handed to the community the same autumn.
 
 ## Current maintainers
 
 | Who | Looks after |
 |---|---|
-| Kevin Ivarson ([@kevinivarson-source](https://github.com/kevinivarson-source)) | Founder. Repository owner, releases until new maintainers are in place |
+| Kevin Ivarson, Durellem Ltd ([GitHub](https://github.com/kevinivarson-source), [LinkedIn](LINKEDIN_URL)) | Founder. Repository owner, releases until new maintainers are in place |
 | *Your name here* | Player and tracks |
 | *Your name here* | Plugin and server |
 | *Your name here* | Pulse Disc (desktop) |

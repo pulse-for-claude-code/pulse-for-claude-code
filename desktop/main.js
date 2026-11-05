@@ -77,6 +77,7 @@ ipcMain.on('menu', (e, s) => {
     { type: 'separator' },
     { label: 'Always on top', type: 'checkbox', checked: win.isAlwaysOnTop(), click: m => { win.setAlwaysOnTop(m.checked, 'floating'); prefs.onTop = m.checked; savePrefs(); } },
     { type: 'separator' },
+    { label: 'Made by Kevin Ivarson, Durellem Ltd', enabled: false },
     { label: 'Quit Pulse Disc', click: () => app.quit() },
   ]).popup({ window: win });
 });
