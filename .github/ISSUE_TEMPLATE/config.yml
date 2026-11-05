@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Questions and show-and-tell
-    url: https://github.com/kevinivarson-source/pulse-for-claude-code/discussions
+    url: https://github.com/pulse-for-claude-code/pulse-for-claude-code/discussions
     about: Ask how something works, or share your best tracks.
   - name: Security problem
-    url: https://github.com/kevinivarson-source/pulse-for-claude-code/security/advisories/new
+    url: https://github.com/pulse-for-claude-code/pulse-for-claude-code/security/advisories/new
     about: Report it privately, please.

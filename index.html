@@ -186,7 +186,7 @@ a.btn{text-decoration:none;justify-content:center}
     </section>
   </div>
   <footer class="foot">
-    <span>Pulse is free and open source. <a href="https://github.com/kevinivarson-source/pulse-for-claude-code" target="_blank" rel="noopener">Get your own</a> · Made by <a href="https://www.linkedin.com/in/kevinivarson" target="_blank" rel="noopener">Kevin Ivarson</a>, Durellem Ltd</span>
+    <span>Pulse is free and open source. <a href="https://github.com/pulse-for-claude-code/pulse-for-claude-code" target="_blank" rel="noopener">Get your own</a> · Made by <a href="https://www.linkedin.com/in/kevinivarson" target="_blank" rel="noopener">Kevin Ivarson</a>, Durellem Ltd</span>
     <button class="btn" id="shareBtn" type="button">Share Pulse</button>
   </footer>
 </div>
@@ -195,7 +195,7 @@ a.btn{text-decoration:none;justify-content:center}
   <div id="pairOff">
     <h3>Record your own</h3>
     <p>Pulse can turn your own Claude Code sessions into tracks. Set up your own free player in one click, then pair this device with the key you chose.</p>
-    <a class="btn solid" href="https://github.com/kevinivarson-source/pulse-for-claude-code#record-your-own-in-one-click" target="_blank" rel="noopener">Get your own player</a>
+    <a class="btn solid" href="https://github.com/pulse-for-claude-code/pulse-for-claude-code#record-your-own-in-one-click" target="_blank" rel="noopener">Get your own player</a>
     <hr class="sep">
     <h3>Already set up?</h3>
     <p>On your own player, type your key or paste a pairing link. You can also scan the code shown on a device that's already paired.</p>
@@ -816,8 +816,8 @@ $('#copyLink').addEventListener('click',()=>{const link=pairLink();navigator.cli
 $('#unpair').addEventListener('click',()=>{$('#pairDlg').close();unpair();toast('This device is unpaired');});
 
 function pairLink(){return `${location.origin}/#pair=${encodeURIComponent(KEY)}`;}
-const REPO='https://github.com/kevinivarson-source/pulse-for-claude-code';
-$('#copySetup').addEventListener('click',()=>{const t=`Set up Pulse for Claude Code on this computer and connect it to my player. Do this by editing two files. Do not run slash commands.\n1. Create the file ~/.claude/pulse/cloud (in my user folder) with exactly these two lines:\nPULSE_URL=${location.origin}\nPULSE_KEY=${KEY}\n2. Open ~/.claude/settings.json in my user folder (create it as {} if missing) and merge in the following, keeping everything already in the file:\n{"extraKnownMarketplaces":{"pulse-for-claude-code":{"source":{"source":"github","repo":"kevinivarson-source/pulse-for-claude-code"}}},"enabledPlugins":{"pulse@pulse-for-claude-code":true}}\n3. Tell me to restart Claude Code. Pulse installs itself when it starts.`;
+const REPO='https://github.com/pulse-for-claude-code/pulse-for-claude-code';
+$('#copySetup').addEventListener('click',()=>{const t=`Set up Pulse for Claude Code on this computer and connect it to my player. Do this by editing two files. Do not run slash commands.\n1. Create the file ~/.claude/pulse/cloud (in my user folder) with exactly these two lines:\nPULSE_URL=${location.origin}\nPULSE_KEY=${KEY}\n2. Open ~/.claude/settings.json in my user folder (create it as {} if missing) and merge in the following, keeping everything already in the file:\n{"extraKnownMarketplaces":{"pulse-for-claude-code":{"source":{"source":"github","repo":"pulse-for-claude-code/pulse-for-claude-code"}}},"enabledPlugins":{"pulse@pulse-for-claude-code":true}}\n3. Tell me to restart Claude Code. Pulse installs itself when it starts.`;
   navigator.clipboard.writeText(t).then(()=>toast('Setup copied. Paste it into Claude Code.'),()=>toast('Copy failed. Try again.'));});
 $('#shareBtn').addEventListener('click',async()=>{const d={title:'Pulse for Claude Code',text:'Hear and see Claude Code work. Free and open source, get your own in one click.',url:REPO};
   try{if(navigator.share){await navigator.share(d);return;}}catch(e){if(e&&e.name==='AbortError')return;}
