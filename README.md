@@ -110,6 +110,6 @@ MIT. Use it freely; it comes with no warranty.
 
 ## Made by
 
-Pulse was created by **Kevin Ivarson** of **Durellem Ltd**, as one of his side projects exploring what AI makes possible, and built together with Claude. Kevin handed it to the community in November 2026. Say hello on [LinkedIn](LINKEDIN_URL).
+Pulse was created by **Kevin Ivarson** of **Durellem Ltd**, as one of his side projects exploring what AI makes possible, and built together with Claude. Kevin handed it to the community in November 2026. Say hello on [LinkedIn](https://www.linkedin.com/in/kevinivarson).
 
 <sub>Pulse is an independent project and is not affiliated with or endorsed by Anthropic.</sub>
