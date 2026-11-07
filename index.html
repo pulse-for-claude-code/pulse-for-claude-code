@@ -126,6 +126,13 @@ a.btn{text-decoration:none;justify-content:center}
 @media (max-width:520px){#roll{height:220px}#cover{width:64px;height:64px}}
 @media (prefers-reduced-motion:reduce){.beat,.pill::before,.btn.listening,.btn.listening::before,.status.wait,.play.cue{animation:none}}
 </style>
+<script>
+// Visitor counts for the public demo only (Vercel Web Analytics: no cookies, no personal data). Self-hosted players load nothing.
+if (location.hostname === 'claude-pulse-rho.vercel.app') {
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  const s = document.createElement('script'); s.defer = true; s.src = '/_vercel/insights/script.js'; document.head.appendChild(s);
+}
+</script>
 </head>
 <body>
 <div class="app">

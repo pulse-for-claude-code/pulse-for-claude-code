@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- The public demo counts visits with Vercel Web Analytics (no cookies, no personal data). Your own player loads nothing extra.
+
 ## v1.0.1
 
 - Pulse now lives at github.com/pulse-for-claude-code; old links redirect.
